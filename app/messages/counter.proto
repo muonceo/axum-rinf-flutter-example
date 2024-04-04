@@ -1,0 +1,12 @@
+syntax = "proto3";
+package counter;
+
+// [RINF:DART-SIGNAL]
+message SetCounter {
+    int32 counter = 1;
+}
+
+// [RINF:RUST-SIGNAL]
+message Counter {
+    int32 number = 1;
+}
