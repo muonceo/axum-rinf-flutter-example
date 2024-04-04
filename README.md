@@ -16,8 +16,8 @@ $ rinf message
 $ flutter run
 ```
 
-# Web
-flutter web build
+## Web
+
 ```sh
 $ rinf wasm --release
 $ flutter build web
