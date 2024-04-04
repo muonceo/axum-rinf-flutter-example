@@ -19,6 +19,7 @@ $ flutter run
 ## Web
 
 ```sh
+$ cd app
 $ rinf wasm --release
 $ flutter build web
 ```
